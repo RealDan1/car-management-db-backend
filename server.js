@@ -1,5 +1,4 @@
 //import dependencies
-//would have imported dotenv for secure DB password but not needed at this point (all open source)
 const dotenv = require('dotenv');
 
 require('dotenv').config();
