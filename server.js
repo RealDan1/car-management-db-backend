@@ -36,7 +36,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 // Set up routes to be handled from: http://localhost:8080/cars
-app.use('/cars', getCars);
+app.use('', getCars);
 
 // Start up express server
 app.listen(PORT, () => {
